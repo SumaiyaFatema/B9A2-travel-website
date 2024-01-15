@@ -44,7 +44,7 @@ nav{
     font-size: 4rem;
     font-weight: 800;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 85px;
     margin-bottom: 0;
     
 }
@@ -59,4 +59,36 @@ nav{
     margin-top: 10px;
     
   
+}
+
+.header-selection{
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    width: 65%;
+    gap: 24px;
+    text-align: center;
+    display: block;
+    margin:0 auto;
+    border-radius: 8px;
+    margin-top: 30px;
+   
+}
+
+.header-option{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: 0;
+}
+.header-button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: 0;
+
+}
+.option-text{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
 }
