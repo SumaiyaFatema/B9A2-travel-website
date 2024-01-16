@@ -145,6 +145,81 @@ nav{
     margin-top: 20px;
     
 }
+/* Choose your destination */
+.destination-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 70px;
+}
+
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.maldivies-indonesia{
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    gap: 24px;
+    padding-left: 155px;
+    margin-top: 30px;
+}
+
+.threepic-collage{
+    padding-left: 155px;
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+    
+    
+    
+
+}
+.srilanka{
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+    
+   
+}
+
+.north-america{
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+   
+   
+}
+
+.kashmir{
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+   
+}
+
+.twopic-collage{
+    padding-left: 155px;
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.bangladesh{
+    width: 473px;
+    height: 300px;
+}
+.bandarban{
+    width: 673px;
+    height: 300px;
+}
+
 
 /*  responsive media queries */
 @media screen and (max-width:600px) {
