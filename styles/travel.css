@@ -352,6 +352,72 @@ nav{
      padding-left: 32px;
  }
 
+ /* Newsletter */
+
+ .login-form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    margin-top: 70px;
+
+    
+ }
+
+ .login-form input{
+    margin-top: 20px;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    border: 0;
+    margin-left: 20px;
+    background: rgba(19, 19, 24, 0.05);
+ }
+
+ .form-button{
+    width: 393px;
+    height: 52px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 20px;
+ }
+
+ .form-image-section{
+    display: flex;
+    gap: 24px;
+    margin-left: 150px;
+ }
+
+ .form-image{
+    margin-top: 70px;
+    width: 672px;
+    height: 422px;
+
+ }
+
+ .form-header{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 20px;
+ }
+
+ .form-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 20px;
+   
+ }
+
 /*  responsive media queries */
 @media screen and (max-width:600px) {
 
