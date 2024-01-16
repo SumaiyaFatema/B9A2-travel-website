@@ -418,6 +418,70 @@ nav{
    
  }
 
+ .hr-tag{
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+ }
+/* footer */
+
+.footer-side{
+    width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 0 auto;
+}
+ .foooter-title{
+    color:  #131318;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 150px;
+ }
+
+ .travel-color{
+    color: #FF5400;
+    font-size: 32px;
+    font-weight: 800;
+ }
+
+ .footer-description{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+ }
+
+ .all-icon{
+    display: flex;
+    margin-left: 500px;
+
+ }
+
+ .twiter{
+    width: 174.322px;
+    height: 24px;
+    margin-top: 0px;
+ }
+ .facebook{
+    width: 174.322px;
+    height: 24px;
+   
+ }
+ .insta{
+    width: 174.322px;
+    height: 24px;
+   
+ }
+.copy-section{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
 /*  responsive media queries */
 @media screen and (max-width:600px) {
 
@@ -441,6 +505,8 @@ nav{
         
         height: auto;
     }
+
+
 
     /* .image-collage{
         flex-direction: column;
@@ -470,16 +536,24 @@ nav{
     }
     .hotel-section{
         padding: 0;
+        margin: 0;
         height: auto;
     }
     .map-section{
         padding: 0;
+        margin: 0;
         height: auto;
     }
     .price-section{
         padding: 0;
+        margin: 0;
         height: auto;
         margin-left: 150px;
 
+    }
+
+    .form-image-section{
+        flex-direction: column;
+        margin: 0;
     }
 }
