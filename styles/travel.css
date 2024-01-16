@@ -399,22 +399,21 @@ nav{
 
 
     }
-    /* .maldivies, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban{
-        width: 335px;
-        height: 176px;
-        gap: 15px;
+    .choose-section, .hotel-map-section, .hotel-section, .map-section, .price-section{
+        flex-direction: column;
+    }
+    .hotel-section{
         padding: 0;
-    } */
+        height: auto;
+    }
+    .map-section{
+        padding: 0;
+        height: auto;
+    }
+    .price-section{
+        padding: 0;
+        height: auto;
+        margin-left: 150px;
 
-
-    
+    }
 }
-
-/* responsive media queries
-@media screen and (max-width:576px){
-    .header-image{
-
-        padding: 20px;
-        /* width: 50%;
-        height: 50%; */
-
